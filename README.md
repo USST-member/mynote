@@ -127,7 +127,7 @@ alter table stu_another rename to stu;
 
 ### sqlite编程接口函数
 
-**int  sqlite3_open(char *path,sqlite3  \* *db) **,打开sqlite3数据库。
+**int  sqlite3_open(char *path,sqlite3  \* *db)**,打开sqlite3数据库。
 
 **int   sqlite3_close(sqlite3 *db)**,关闭数据库。
 
