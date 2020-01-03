@@ -49,7 +49,7 @@ create table stu(id Integer,name char,score Integer);
 <font color=#008000>向表格stu插入三个数据，分别对应上述的id、name、score</font>
 
 ```sql
-insert into stuvalues(001,'jack',100);
+insert into stu values(001,'jack',100);
 ```
 
 
