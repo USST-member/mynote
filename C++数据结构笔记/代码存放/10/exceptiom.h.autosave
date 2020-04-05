@@ -1,0 +1,14 @@
+﻿#ifndef EXCEPTIOM_H
+#define EXCEPTIOM_H
+
+namespace dong {
+class Exceptiom
+{
+public:
+    Exceptiom(const );
+};
+
+}
+
+
+#endif // EXCEPTIOM_H
