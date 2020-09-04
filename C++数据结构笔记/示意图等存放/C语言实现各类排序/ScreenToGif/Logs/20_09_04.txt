@@ -1,0 +1,30 @@
+► Title - 
+	Impossible to check for updates on Github
+▬ Message - 
+	Unable to connect to the remote server
+○ Type - 
+	System.Net.WebException
+♦ [Version] Date/Hour - 
+	[2.25] 09/04/2020 17:51:09
+▲ Source - 
+	System
+▼ TargetSite - 
+	System.Net.WebResponse GetResponse()
+♠ StackTrace - 
+   at System.Net.HttpWebRequest.GetResponse()
+   at ScreenToGif.Model.ApplicationViewModel.CheckOnGithub()
+
+▬▬ Message - 
+	由于目标计算机积极拒绝，无法连接。 13.250.168.23:443
+○○ Type - 
+	System.Net.Sockets.SocketException
+▲▲ Source - 
+	System
+▼▼ TargetSite - 
+	Void DoConnect(System.Net.EndPoint, System.Net.SocketAddress)
+♠♠ StackTrace - 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+----------------------------------
+
